@@ -2,6 +2,7 @@ function doGet() {
   let doGetData = [
     // functions
     deliverAllSurveyResult(),
+    deliverSubmitedKosenData(),
   ];
 
   console.log(doGetData);
